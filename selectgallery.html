@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GALLERIA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="_css/mystyle.css">
+    </head>
+    <header>
+        <table style="width:100%">
+            <tr>
+                <th class="Left-Justify">
+                    <a href="index.html">
+                        <img src="galleria.jpg" height="60" width="60">
+                     </a> 
+                </th>
+                <th> 
+                    <div class="Right-Justify" width: 90px>
+                        <a href="dashboard.html">Dashboard</a>
+                        |
+                        <a href="help.html">Help</a>
+                    </div>
+                </th>
+           </tr>
+        </table>               
+    </header>
+ <body>
+ <H1>Select Gallery</H1>
+ <form>
+    <fieldset>
+       <p>
+          <label>Select Gallery</label>
+          <select id = "myList">
+            <option value = "1">Sample</option>
+
+          </select>
+       </p>
+    </fieldset>
+ </form>
+     <div class="wrapper">
+         <button class="button" onclick="location.href='viewgallery.html'" type="button">
+            GO!
+        </button>
+    </div>
+ </body>
+</html>
